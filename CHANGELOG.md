@@ -1,3 +1,21 @@
+# 5.0.0
+
+- feat!: upgrade to support Dart `^3.0.0`
+- feat: new lint rules:
+  - [implicit_reopen](https://dart-lang.github.io/linter/lints/implicit_reopen.html)
+  - [unnecessary_breaks](https://dart-lang.github.io/linter/lints/unnecessary_breaks.html)
+  - [invalid_case_patterns](https://dart-lang.github.io/linter/lints/invalid_case_patterns.html)
+
+- feat: new analyzer errors:
+  - [record_literal_one_positional_no_trailing_comma](https://dart.dev/tools/diagnostic-messages#record_literal_one_positional_no_trailing_comma)
+
+- refactor: remove deprecated lint rules:
+  - [prefer_equal_for_default_values](https://dart-lang.github.io/linter/lints/prefer_equal_for_default_values.html)
+  - [enable_null_safety](https://dart-lang.github.io/linter/lints/enable_null_safety.html)
+
+- refactor: remove malfunctioning lint rules:
+  - [use_decorated_box](https://dart-lang.github.io/linter/lints/use_decorated_box.html)
+
 # 4.0.0+1
 
 - docs: minor updates to documentation in `README.md`
